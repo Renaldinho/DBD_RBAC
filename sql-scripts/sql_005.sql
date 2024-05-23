@@ -1,4 +1,4 @@
-﻿-- creating some users
+﻿-- Creating some users
 
 
 CREATE EXTENSION pgcrypto; -- Extension for creating password hash for a level of real-ness

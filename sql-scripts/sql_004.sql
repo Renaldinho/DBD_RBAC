@@ -1,4 +1,4 @@
-﻿-- assigning permissions to roles
+﻿-- Assigning permissions to roles
 
 -- Admin Role (all permissions)
 INSERT INTO role_permission_assignments (role_id, permission_id)

@@ -1,4 +1,4 @@
-﻿-- creating some roles
+﻿-- Creating some roles
 
 INSERT INTO roles (role_name) VALUES ('admin');
 
