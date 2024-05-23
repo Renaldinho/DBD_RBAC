@@ -1,0 +1,1 @@
+﻿-- assigning permissions to roles

@@ -1,0 +1,1 @@
+﻿-- checking some users for permissions

@@ -1,0 +1,19 @@
+﻿version: '3.7'  # Use a newer version of Docker Compose
+
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres_db
+    restart: always # Automatically restart the container if it stops
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=db
+    volumes:
+      - pgdata:/var/lib/postgresql/data  # Named volume for better management
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+
+volumes:
+  pgdata: 
